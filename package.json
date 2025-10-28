@@ -17,8 +17,10 @@
   "author": "Dein Name",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^28.1.8",
     "@types/node": "^20.12.12",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {}
+  }
 }
