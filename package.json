@@ -2,7 +2,7 @@
   "name": "ts-calculator-demo",
   "version": "1.0.0",
   "description": "Ein einfacher Taschenrechner für eine Testing-Präsentation (Vitest)",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -16,7 +16,7 @@
     "demo",
     "testing"
   ],
-  "author": "Dein Name",
+  "author": "Leonard Siesing",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.12",
