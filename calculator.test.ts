@@ -1,4 +1,4 @@
-import { assert, expect, test } from 'vitest'
+import { assert, expect, test, describe } from 'vitest'
 import { Calculator } from "./calculator";
 
 const calc = new Calculator;
@@ -29,12 +29,12 @@ test('Modulo-by-zero check', () => {
 describe('Generate report snapshot', () => {
     let calculator: Calculator
 
-    it('Compare currently generated report with snapshot', () => {
+    test('Compare currently generated report with snapshot', () => {
         const report = calc.generateReport(10, 5);
         expect(report).toMatchSnapshot();
     });
 
-    it('Compare currently generated report (with div by zero) with snapshot', () => {
+    test('Compare currently generated report (with div by zero) with snapshot', () => {
         const report = calc.generateReport(10, 0);
         expect(report).toMatchSnapshot();
     });
