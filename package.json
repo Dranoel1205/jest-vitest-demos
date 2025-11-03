@@ -1,7 +1,7 @@
 {
-  "name": "ts-calculator-demo",
+  "name": "ts-calculator-demo-jest",
   "version": "1.0.0",
-  "description": "Ein einfacher Taschenrechner für eine Testing-Präsentation",
+  "description": "Ein einfacher Taschenrechner für eine Testing-Präsentation (Jest)",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "demo",
     "testing"
   ],
-  "author": "Dein Name",
+  "author": "Leonard Siesing",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^28.1.8",
