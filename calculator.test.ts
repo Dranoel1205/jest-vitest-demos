@@ -24,3 +24,18 @@ test('Modulo of two numbers', () => {
 test('Modulo-by-zero check', () => {
     expect(() => calc.modulo(7,0)).toThrow()
 })
+
+// Testen der Report-Funktion
+describe('Generate report snapshot', () => {
+    let calculator: Calculator
+
+    it('Compare currently generated report with snapshot', () => {
+        const report = calc.generateReport(10, 5);
+        expect(report).toMatchSnapshot();
+    });
+
+    it('Compare currently generated report (with div by zero) with snapshot', () => {
+        const report = calc.generateReport(10, 0);
+        expect(report).toMatchSnapshot();
+    });
+})
