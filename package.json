@@ -25,6 +25,6 @@
     "@vitest/ui": "latest",
     "typescript": "^5.4.5",
     "vite": "latest",
-    "vitest": "^4.0.5"
+    "vitest": "^4.0.6"
   }
 }
